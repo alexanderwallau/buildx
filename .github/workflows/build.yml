@@ -47,7 +47,7 @@ jobs:
           file: ./coverage/coverage.txt
       -
         name: Expose GitHub Runtime
-        uses: crazy-max/ghaction-github-runtime@906832f62b7baa936e3fbef72b029308af505ee7
+        uses: crazy-max/ghaction-github-runtime@747e98cd97bb9cfed8fe0165c821a83139bfdd67
       -
         name: Build binaries
         run: |
